@@ -59,3 +59,18 @@
     align-items: center;
     justify-content: center;
 }
+
+.friends__avatar-me{
+    width: 45px;
+    height: 45px;
+    border-radius: 18px;
+    background-color: #9cc5e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.friends__avatar-me i {
+    font-size: 25px;
+    color: #BFDDE5;
+}
