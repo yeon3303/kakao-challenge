@@ -8,10 +8,26 @@
 }
 
 .nav__list-item{
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     opacity: 0.6;
 }
 
 .nav__list:first-child{
     font-size: 25px;
+}
+
+.fa-comment, .fa-ellipsis-h {
+    position: relative;
+}
+
+.nav__chats-btn{
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    font-size: 11px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 3px 4px;
+    border-radius: 10px;
+    background-color: #ee4300;
 }

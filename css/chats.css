@@ -1,11 +1,13 @@
 .chats {
     display: flex;
     flex-direction: column;
+    margin-top: 140px;
 }
 
 .chats__chat{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 20px;
 }
 
@@ -14,16 +16,26 @@
     align-items: center;
 }
 
+.chats__column:last-child{
+    flex-direction: column;
+    align-items: flex-end;
+}
+
 .chats__profile{
     padding-left: 20px;
     display: flex;
     flex-direction: column;
-    font-size: 14px;
 }
 
 .chats__name{
+    font-size: 14px;
     font-weight: 600;
     margin-bottom: 5px;
+}
+
+.chats__preview{
+    font-size: 13px;
+    opacity: 0.7;
 }
 
 .chats__time{
@@ -31,3 +43,26 @@
     opacity: 0.5;
 }
 
+.chats__unread{
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 2px 5px;
+    border-radius: 10px;
+    background-color: #ee4300;
+}
+
+.chats__2users{
+    position: relative;
+    width: 45px;
+    height: 45px;
+}
+
+.chats__4users{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50px;
+    height: 50px;
+}

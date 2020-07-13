@@ -5,6 +5,8 @@
 @import "nav.css";
 @import "chats.css";
 @import "friends.css";
+@import "friend.css";
+@import "more.css";
 
 * {
     box-sizing: border-box;

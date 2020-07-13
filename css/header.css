@@ -1,6 +1,12 @@
 .header-wrapper{
-    padding-top: 40px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 70px;
     background-color: #ffffff;
+    padding: 40px 20px;
+    padding-bottom: 0px;
+    z-index: 1;
 }
 
 .header{
