@@ -20,6 +20,7 @@ body {
     color: #020202;
     font-family: 'Open Sans', sans-serif;
     height: 1000px;
+    width: 400px;
 }
 
 a {
@@ -30,6 +31,7 @@ a {
 .body__column{
     display: flex;
     height: 100%;
+    width: 100%;
 }
 
 .column-left{
@@ -44,8 +46,8 @@ a {
 }
 
 .column-right{
-    position: fixed;
-    width: 400px;
+    position: relative;
+    width: 100%;
     left: 70px;
     padding: 0px 20px;
 }
