@@ -1,0 +1,52 @@
+.chat__footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    z-index: 1;
+    opacity: 0.5;
+    transition: opacity 1s ease-in-out;
+}
+
+.chat__footer:hover{
+    opacity: 1;
+}
+
+.chat__write{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.chat__write-write{
+    border: none;
+    padding: 10px;
+    width: 80%;
+}
+
+.chat__write input:focus{
+    outline: none;
+}
+
+.chat__send{
+    padding: 10px 15px;
+    background-color: #F2DA00;
+    border-radius: 5px;
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.chat__write-icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    opacity: 0.5;
+}
+
+.chat__icons i {
+    margin-right: 15px;
+}

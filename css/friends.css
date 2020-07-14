@@ -12,7 +12,6 @@
     width: 30px;
     height: 30px;
     border-radius: 10px;
-    border: 2px solid #ffffff;
 }
 
 .friends__avatar-2p:last-child{
@@ -24,7 +23,6 @@
     width: 22px;
     height: 22px;
     border-radius: 7px;
-    border: 1px solid #ffffff;
 }
 
 .friends__avatar-lg{
